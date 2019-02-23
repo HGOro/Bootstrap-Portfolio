@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+<body>
+
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html">
+        <h2>Hernan G. Orozco</h2>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container border">
+        <!--row one of main container,"Portfolio"-->
+        <div class="row">
+            <div class="col-md-12">
+                <div> 
+                  <h2>Portfolio</h2>                 
+                </div>
+            </div>
+            
+            <!--This should be a visible line separating "Portfolio" and the next row-->
+            <!--maybe put a bottom border?-->
+            <hr>
+        </div>
+        <!--row two of main container. Holds "Word Guess" and "Rpg Game" columns-->
+        <div class="row">
+            <!--column for Word Guess-->
+            <div class= "col-md-4">
+              <div>
+                <img width=75% src="assets/images/technics-q-c-640-480-1.jpg">
+              </div>
+            </div>
+
+            <!--one of many attempts at bootstrapping text overlay over an image. Was not satisfied with result.
+              <div class="card bg-dark text-white text-center">
+                <img width=75% src="assets/images/technics-q-c-640-480-1.jpg" class="card-img" alt="assets/images/technics-q-c-640-480-1.jpg">
+                  <div class="card-img-overlay">
+                    <h5 class="card-title">Word Guess</h5>
+                  </div>
+              </div>
+            -->  
+            <!--column for RPG game-->
+            <div class= "col-md-4">
+                <div>
+                    <img width=75% src="assets/images/technics-q-c-640-480-2.jpg">               
+                </div>                            
+            </div>
+        </div>
+        <!--Row three of main container for Trivia Game and Rutgers Info Widget--> 
+        <div class="row">
+            <!-- column for trivia game-->
+            <div class="col-md-4">
+              <div>
+                <img width=75% src="assets/images/technics-q-c-640-480-5.jpg">
+              </div>
+            </div>
+            <!--column for Rutgers Info Widget-->
+            <div class="col-md-4">
+                <img width=75% src="assets/images/technics-q-c-640-480-7.jpg">
+            </div>
+        </div>
+        <!--row 4 of main container for RockPaperScissors-->
+        <div class="row">
+            <!--column for RockPaperScissors-->
+            <div class="col-md-4">
+              <div>
+                  <img width=75% src="assets/images/technics-q-c-640-480-9.jpg">
+              </div>
+            </div>
+        </div>
+    <!--end div for container-->
+    </div> 
+   
+    <!--struggled to find "footer" in bootstrap, so attempting to use a nav placed at bottom-->
+    
+    <nav class="navbar navbar-light bg-light">
+        <span class="navbar-brand mb-0 h1 mx-auto">Copyright ©</span>
+    </nav>
+
+
+    <!-- Footer from "mdbootstrap", this works, but the point is to use bootstrap.
+    <footer class="page-footer font-small blue">
+        <div class="footer-copyright text-center py-3 border">Copyright ©
+          <a href="https://mdbootstrap.com/education/bootstrap/"></a>
+        </div>
+    </footer>
+    end footer from "mdbootstrap" -->
+    
+</body>
+</html>
